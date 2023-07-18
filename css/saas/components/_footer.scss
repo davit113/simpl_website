@@ -1,0 +1,10 @@
+.footer{
+    background-color: $color-bg-dark;
+    &__wraper{
+        border-top: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem 0;
+    }
+}

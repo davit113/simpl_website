@@ -1,0 +1,17 @@
+.btn-generic{
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    box-shadow: $shaddow-basic;
+    touch-action: manipulation;
+    text-align: center;
+    vertical-align: middle;
+    color: #0f1111;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    width: 100%;
+    &:hover{
+        background-color: #f7fafa;
+    }
+}
+
+

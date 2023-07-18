@@ -1,0 +1,51 @@
+<form action="/php/handlers/addProductHandler.php" method="post" id="product_form">
+    <div class="input">
+        <label for="sku">SKU</label>
+        <input id="sku" name="sku" type="text" placeholder="#sku" required>
+    </div>
+    
+    <div class="input">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="#name" required>
+    </div>
+    <div class="input">
+        <label for="price">Price($)</label>
+        <input id="price" name="price" type="text" placeholder="#price" required>
+    </div>
+    <div id="" class="input">
+        <label  for="productType">select type</label>
+            <select required  id="productType">
+                <Option selected value="">#type</Option>
+                <Option value="DVD">DVD</option>
+                
+                <option value="Furniture">Furniture</option>
+                <Option value="book">Book</Option>
+            </select>
+    </div>
+    <div id="DVD" class="product--DVD product hidden">
+        <div class="input ">
+            <label  for="size">Size(MB)</label>
+            <input  id="size" name="size" type="text" placeholder="#size">
+        </div>
+    </div>
+    <div class="product--Furniture product  hidden">
+        <div class="input">
+            <label for="height">Height(CM)</label>
+            <input id="height" name="height" type="text" placeholder="#height">
+        </div>
+        <div class="input ">
+            <label for="width">Width(CM)</label>
+            <input id="width" name="width" type="text" placeholder="#width">
+        </div>
+        <div class="input ">
+            <label for="length">Length(CM)</label>
+            <input id="length" name="length" type="text" placeholder="#length">
+        </div>
+    </div>
+    <div class="product--book product hidden">
+        <div class="input ">
+            <label for="weight">Weight(KG)</label>
+            <input id="weight" name="weight" type="text" placeholder="#weight">
+        </div>
+    </div>
+</form>

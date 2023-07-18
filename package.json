@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "name": "assigment_scandiweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "compile:saas": "node-sass css/saas/main.scss css/stylesheet.css -w"
+  },
+  "author": "davit",
+  "license": "ISC",
+  "description": ""
+}

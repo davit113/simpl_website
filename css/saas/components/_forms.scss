@@ -1,0 +1,25 @@
+#product_form{
+    .input{
+        display: flex;
+        label{
+            width: 20rem;
+        }
+        input{
+            border-radius: 4px;
+        }
+        input , label{
+            padding: 1rem;
+            margin: 2rem 3rem 2rem 0rem;
+        }
+        select{
+            border-radius: 4px;
+            width: 15rem;
+            padding: 1rem;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: 3rem;
+        }
+    }
+
+}
+
